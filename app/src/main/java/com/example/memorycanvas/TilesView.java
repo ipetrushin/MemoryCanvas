@@ -135,6 +135,10 @@ public class TilesView extends View {
         return true;
     }
 
+    public void newGame() {
+        // запуск новой игры
+    }
+
     class PauseTask extends AsyncTask<Integer, Void, Void> {
         @Override
         protected Void doInBackground(Integer... integers) {
